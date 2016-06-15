@@ -4,5 +4,5 @@ uniform float timeB;
 varying vec4 vertTexCoord;
 
 void main(){
-    gl_FragColor = vec4(vertTexCoord.x, timeG, timeB, 1.0);
+    gl_FragColor = vec4(vertTexCoord.x, vertTexCoord.y, 0.0, 1.0);
 }

@@ -1,5 +1,6 @@
 uniform sampler2D texture;
 uniform vec2 size;
+varying vec4 vertTexCoord;
 
 
 

@@ -1,7 +1,7 @@
 PShader sd;
 PImage mImage;
 
-int mLv = 1;
+int mLv;
 
 void setup(){
   size(640,480, P2D);
@@ -9,7 +9,7 @@ void setup(){
   sd = loadShader("index.glsl");
   sd.set("sketchSize", float(width),float(height));
   
-  mImage = loadImage("test.jpg");
+  mImage = loadImage("img.jpg");
 }
 
 void draw(){
