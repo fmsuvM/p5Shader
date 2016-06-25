@@ -11,7 +11,4 @@ void setup(){
 void draw(){
   shader(sd);
   rect(0,0, width,height);
-  
-  color c = get(mouseX,mouseY);
-  println(c);
 }
